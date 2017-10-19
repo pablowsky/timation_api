@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rows>
+	<tipo_informe>
+		<row>
+			<id>1</id>
+			<name>Compilado</name>
+			<status>5</status>
+		</row>		
+		<row>
+			<id>2</id>
+			<name>informe diario</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>3</id>
+			<name>Informe semanal</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>4</id>
+			<name>informe mensual</name>
+			<status>1</status>
+		</row>
+	</tipo_informe>
+	<tipo_evento>
+		<row>
+			<id>avreal</id>
+			<name>Avance Real</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>detenciones</id>
+			<name>Detenciones</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>grafico</id>
+			<name>Presupuesto consumido</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>seguridad</id>
+			<name>Seguridad</name>
+			<status>1</status>
+		</row>
+	</tipo_evento>
+	<area>
+		<row>
+			<id>1</id>
+			<name>area0</name>
+			<status>0</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>area1</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>3</id>
+			<name>area2</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>4</id>
+			<name>area3</name>
+			<status>1</status>
+		</row>
+	</area>
+	<tipo_cordarch>
+		<row>
+			<id>1</id>
+			<name>DETERMINACION SERVICIO</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>APORTE MATERIAL</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>3</id>
+			<name>APORTE EQUIPOS</name>
+			<status>1</status>
+		</row>
+	</tipo_cordarch>
+	<tipo_revp>
+		<row>
+			<id>1</id>
+			<name>ITEMIZADO</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>DOCUMENTOS ANEXOS</name>
+			<status>1</status>
+		</row>
+	</tipo_revp>
+	<solicitante>
+		<row>
+			<id>1</id>
+			<name>SOLICITANTE 1</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>SOLICITANTE 2</name>
+			<status>1</status>
+		</row>
+	</solicitante>
+	<area>
+		<row>
+			<id>1</id>
+			<name>AREA 1</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>AREA 2</name>
+			<status>1</status>
+		</row>
+	</area>
+	<etapa_proyecto>
+		<row>
+			<id>1</id>
+			<name>Antes de la fabricación</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>Durante la fabricación</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>3</id>
+			<name>Final</name>
+			<status>1</status>
+		</row>
+	</etapa_proyecto>
+	<tipo_inspeccion>
+		<row>
+			<id>1</id>
+			<name>Reunión de Pre-Auditoria</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>Antes de la ejecución</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>3</id>
+			<name>Durante la ejecución</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>4</id>
+			<name>Final</name>
+			<status>1</status>
+		</row>
+	</tipo_inspeccion>
+	<servicio>
+		<row>
+			<id>1</id>
+			<name>IITCM</name>
+			<desc>Servicio de planificacion de contratos mtto</desc>
+			<num_contrato>00000000</num_contrato>
+			<titulo_inf>Gestion de planificacion de contratos mtto</titulo_inf>
+			<dir_inf>207</dir_inf>
+			<status>0</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>IITPS</name>
+			<desc>No desc.</desc>
+			<status>0</status>
+		</row>
+		<row>
+			<id>3</id>
+			<name>SICM</name>
+			<desc>Inspeccion Tecnica Cto. Mtto.</desc>
+			<num_contrato>4600011902</num_contrato>
+			<titulo_inf>SERVICIO DE INSPECCION TÉCNICA CONTRATOS DE MANTENIMIENTO</titulo_inf>
+			<dir_inf>206</dir_inf>
+			<status>1</status>
+		</row>
+		<row>
+			<id>4</id>
+			<name>RT</name>
+			<desc>No desc.</desc>
+			<status>0</status>
+		</row>
+		<row>
+			<id>5</id>
+			<name>IGPSP</name>
+			<desc>Gestion de planificacion. Stock de productos</desc>
+			<num_contrato>00000000</num_contrato>
+			<titulo_inf>Gestion de planificacion de contratos mtto. stock de productos</titulo_inf>
+			<dir_inf>205</dir_inf>
+			<status>1</status>
+		</row>
+		<row>
+			<id>6</id>
+			<name>GESTION</name>
+			<desc>Gestion</desc>
+			<num_contrato>00000000</num_contrato>
+			<titulo_inf>No Aplica</titulo_inf>
+			<dir_inf>208</dir_inf>
+			<status>0</status>
+		</row>
+		<row>
+			<id>7</id>
+			<name>SISE</name>
+			<desc>Servicio de inspeccion de seguridad</desc>
+			<num_contrato>00000000</num_contrato>
+			<titulo_inf>Inspecciones de seguridad</titulo_inf>
+			<dir_inf>227</dir_inf>
+			<dir_insp>502</dir_insp>
+			<status>1</status>
+		</row>
+		<row>
+			<id>8</id>
+			<name>ISMP</name>
+			<desc>Servicio predictivo</desc>
+			<num_contrato>00000000</num_contrato>
+			<titulo_inf>Inspecciones de seguridad</titulo_inf>
+			<dir_inf>227</dir_inf>
+			<dir_insp>502</dir_insp>
+			<status>1</status>
+		</row>				
+		<row>
+			<id>9</id>
+			<name>HEPE</name>
+			<desc>Servicio de Herramientas Preventivas</desc>
+			<num_contrato>00000000</num_contrato>
+			<titulo_inf>Servicio de Herramientas Preventivas</titulo_inf>
+			<dir_inf>213</dir_inf>
+			<status>1</status>
+		</row>
+		<row>
+			<id>10</id>
+			<name>EFFCM</name>
+			<desc>Gestion de Contratos</desc>
+			<num_contrato>00000000</num_contrato>
+			<titulo_inf>No Aplica</titulo_inf>
+			<dir_inf>213</dir_inf>
+			<status>1</status>
+		</row>
+		<row>
+			<id>11</id>
+			<name>SIT</name>
+			<desc>Inspeccion Tecnica Cto. Mtto.</desc>
+			<num_contrato>4600011902</num_contrato>
+			<titulo_inf>SERVICIO DE INSPECCION TÉCNICA CONTRATOS DE MANTENIMIENTO</titulo_inf>
+			<dir_inf>206</dir_inf>
+			<status>1</status>
+		</row>
+		<row>
+			<id>12</id>
+			<name>SITO</name>
+			<desc>Inspeccion Tecnica de Obras</desc>
+			<num_contrato>000000000</num_contrato>
+			<titulo_inf>SERVICIO DE INSPECCION TÉCNICA DE OBRAS</titulo_inf>
+			<dir_inf>206</dir_inf>
+			<status>1</status>
+		</row>
+	</servicio>
+	<condiciones>
+		<row>
+			<id>1</id>
+			<name>Critico</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>Medio</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>3</id>
+			<name>Bajo</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>4</id>
+			<name>Sin Acceso</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>5</id>
+			<name>Sin Eventos</name>
+			<status>1</status>
+		</row>
+	</condiciones>
+	<condiciones_chuqui>
+		<row>
+			<id>1</id>
+			<name>Critico</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>5</id>
+			<name>Sin Eventos</name>
+			<status>1</status>
+		</row>
+	</condiciones_chuqui>
+	<effcm_listas>
+		<row>
+			<id>1</id>
+			<name>EMPRESA</name>
+			<desc>Empresas</desc>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>SUPTCIA</name>
+			<desc>Superintendencia</desc>
+			<status>1</status>
+		</row>
+		<row>
+			<id>3</id>
+			<name>AREA</name>
+			<desc>Area</desc>
+			<status>1</status>
+		</row>
+		<row>
+			<id>4</id>
+			<name>TIPO_CONTRATO</name>
+			<desc>Tipo Contrato</desc>
+			<status>1</status>
+		</row>
+		<row>
+			<id>5</id>
+			<name>SEGMENTACION</name>
+			<desc>Segmentacion</desc>
+			<status>1</status>
+		</row>
+		<row>
+			<id>6</id>
+			<name>CLASIFICACION_FTE</name>
+			<desc>Clasificacion FTE</desc>
+			<status>1</status>
+		</row>
+		<row>
+			<id>7</id>
+			<name>TIPO_PLAZO</name>
+			<desc>Plazos</desc>
+			<status>1</status>
+		</row>
+		<row>
+			<id>8</id>
+			<name>TIPO_DOC</name>
+			<desc>Tipo Documentos</desc>
+			<status>1</status>
+		</row>
+		<row>
+			<id>9</id>
+			<name>ESTADO_DOC</name>
+			<desc>Estado Documentos</desc>
+			<status>1</status>
+		</row>
+		<row>
+			<id>10</id>
+			<name>DIVISA</name>
+			<desc>Divisas</desc>
+			<status>1</status>
+		</row>
+	</effcm_listas>
+	<ismp_lista>
+		<row>
+			<id>1</id>
+			<name>CLIENTE</name>
+			<desc>Cliente</desc>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>NORMA</name>
+			<desc>Norma de evaluacion</desc>
+			<status>1</status>
+		</row>
+		<row>
+			<id>9</id>
+			<name>IN2_APLICACION</name>
+			<desc></desc>
+			<status>1</status>
+		</row>
+		<row>
+			<id>10</id>
+			<name>IN2_TIPO</name>
+			<desc></desc>
+			<status>1</status>
+		</row>		
+	</ismp_lista>
+	<ismp_forms>
+		<row>
+			<id>1</id>
+			<name>Liquidos Penetrantes</name>
+			<desc>INFORME DE INSPECCION POR LIQUIDOS PENETRANTES</desc>
+			<status>1</status>
+		</row>		
+		<row>
+			<id>2</id>
+			<name>Particulas Magneticas</name>
+			<desc>INFORME DE INSPECION POR PARTICULAS MAGNETICAS</desc>
+			<status>1</status>
+		</row>
+		<row>
+			<id>3</id>
+			<name>Inspeccion Visual</name>
+			<desc>INFORME DE INSPECCION VISUAL</desc>
+			<status>1</status>
+		</row>
+		<row>
+			<id>4</id>
+			<name>Med. espesores ultra.</name>
+			<desc>INFORME DE MEDICION DE ESPESORES POR ULTRASONIDOS</desc>
+			<status>1</status>
+		</row>
+		<row>
+			<id>5</id>
+			<name>Ultrasonidos</name>
+			<desc>INFORME DE INSPECCION POR ULTRASONIDOS</desc>
+			<status>1</status>
+		</row>		
+		<row>
+			<id>6</id>
+			<name>Inspeccion por Radiografias</name>
+			<desc>INFORME DE INSPECCION MEDIANTE RADIOGRAFIAS</desc>
+			<status>1</status>
+		</row>
+		<row>
+			<id>7</id>
+			<name>Ensayo Gammagrafico</name>
+			<desc>INFORME DE ENSAYO GAMMAGRAFICO</desc>
+			<status>1</status>
+		</row>
+		<row>
+			<id>8</id>
+			<name>Termografia</name>
+			<desc>INFORME DE TERMOGRAFIA</desc>
+			<status>1</status>
+		</row>	
+	</ismp_forms>
+	<ismp_in2_cond>
+		<row>
+			<id>1</id>
+			<name>Limpia</name>
+			<status>1</status>
+		</row>
+	</ismp_in2_cond>
+	<ismp_in2_equipo>
+		<row>
+			<id>1</id>
+			<name>Yugo Electro Iman</name>
+			<status>1</status>
+		</row>
+	</ismp_in2_equipo>
+	
+	
+	
+	
+	<ismp_in2_metodo>
+		<row>
+			<id>1</id>
+			<name>Yugo con auriculares moviles</name>
+			<status>1</status>
+		</row>
+	</ismp_in2_metodo>
+	
+	<ismp_in2_pigmentacion>
+		<row>
+			<id>1</id>
+			<name>Rojas</name>
+			<status>1</status>
+		</row>
+	</ismp_in2_pigmentacion>
+	<ismp_in2_tipo>
+		<row>
+			<id>1</id>
+			<name>Secas</name>
+			<status>1</status>
+		</row>
+	</ismp_in2_tipo>
+	<ismp_in2_aplicacion>
+		<row>
+			<id>1</id>
+			<name>Movimiento Semicircular</name>
+			<status>1</status>
+		</row>
+	</ismp_in2_aplicacion>
+	<ismp_in2_prelim>
+		<row>
+			<id>1</id>
+			<name>Manual mecanica</name>
+			<status>1</status>
+		</row>
+	</ismp_in2_prelim>
+	<ismp_in2_desmag>
+		<row>
+			<id>1</id>
+			<name>No</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>1</id>
+			<name>Si</name>
+			<status>1</status>
+		</row>
+	</ismp_in2_desmag>
+	<ismp_in2_iluminacion>
+		<row>
+			<id>1</id>
+			<name>Artificial</name>
+			<status>1</status>
+		</row>
+	</ismp_in2_iluminacion>
+	
+	<ismp_in1_tiempo>
+		<row>
+			<id>1</id>
+			<name>10 Minutos</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>15 Minutos</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>3</id>
+			<name>20 Minutos</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>4</id>
+			<name>30 Minutos</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>5</id>
+			<name>1 Hora</name>
+			<status>1</status>
+		</row>
+	</ismp_in1_tiempo>
+	<ismp_in1_limpieza>
+		<row>
+			<id>1</id>
+			<name>Paños limpios</name>
+			<status>1</status>
+		</row>
+	</ismp_in1_limpieza>
+	<ismp_in1_secado>
+		<row>
+			<id>1</id>
+			<name>Ambiente</name>
+			<status>1</status>
+		</row>
+	</ismp_in1_secado>
+	<ismp_in1_aplicacion>
+		<row>
+			<id>1</id>
+			<name>Pulverizado</name>
+			<status>1</status>
+		</row>
+	</ismp_in1_aplicacion>
+	<ismp_in1_tipo>
+		<row>
+			<id>1</id>
+			<name> - </name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>Crick 110</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>3</id>
+			<name>Crick 120</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>4</id>
+			<name>Crick 130</name>
+			<status>1</status>
+		</row>
+	</ismp_in1_tipo>
+	<ismp_in1_marca>
+		<row>
+			<id>1</id>
+			<name> - </name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>Agua</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>3</id>
+			<name>CRC</name>
+			<status>1</status>
+		</row>
+	</ismp_in1_marca>
+	<ismp_in1_tpenetrante>
+		<row>
+			<id>1</id>
+			<name>Tipo II (Penetrante Coloreado)</name>
+			<status>1</status>
+		</row>
+	</ismp_in1_tpenetrante>
+	
+	<ismp_in4_material>
+		<row>
+			<id>1</id>
+			<name>Acero Carbono</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>Acero Inoxidable</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>3</id>
+			<name>Goma</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>4</id>
+			<name>Caucho</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>5</id>
+			<name>Acero carbono y Bronce</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>6</id>
+			<name>Acrilico</name>
+			<status>1</status>
+		</row>
+	</ismp_in4_material>
+	<ismp_in4_examinacion>
+		<row>
+			<id>1</id>
+			<name>Inicio</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>Muestreo</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>3</id>
+			<name>Seguimiento</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>4</id>
+			<name>Final</name>
+			<status>1</status>
+		</row>
+	</ismp_in4_examinacion>
+	<ismp_in4_procedimiento>
+		<row>
+			<id>1</id>
+			<name>BV-ME US-04</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>PC-BV-US-048508</name>
+			<status>1</status>
+		</row>
+	</ismp_in4_procedimiento>
+	<ismp_in4_umedida>
+		<row>
+			<id>1</id>
+			<name>Milimetros</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>Pulgadas</name>
+			<status>1</status>
+		</row>
+	</ismp_in4_umedida>
+	<ismp_in4_equipo>
+		<row>
+			<id>1</id>
+			<name>General Eletric - DMS2 - 1003560</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>SONATEST S10</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>3</id>
+			<name>Camara Fluke T32</name>
+			<status>1</status>
+		</row>
+	</ismp_in4_equipo>
+	<ismp_in4_transductor>
+		<row>
+			<id>1</id>
+			<name>1 Mhz. 24 mm</name>
+			<status>1</status>
+		</row>
+	</ismp_in4_transductor>
+	<ismp_in4_acoplante>
+		<row>
+			<id>1</id>
+			<name>Industrial</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>Murazel</name>
+			<status>1</status>
+		</row>
+	</ismp_in4_acoplante>
+	<ismp_in4_patron>
+		<row>
+			<id>1</id>
+			<name>Escalonado</name>
+			<status>1</status>
+		</row>
+	</ismp_in4_patron>
+	<ismp_in6_tpelicula>
+		<row>
+			<id>1</id>
+			<name>Kodak M1</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>1</id>
+			<name>Kodak MX</name>
+			<status>1</status>
+		</row>
+	</ismp_in6_tpelicula>
+	<ismp_in6_tfuente>
+		<row>
+			<id>1</id>
+			<name>Rayos Gamma</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>1</id>
+			<name>Rayos X</name>
+			<status>1</status>
+		</row>
+	</ismp_in6_tfuente>
+	
+	<ismp_in8_prioridad>
+		<row>
+			<id>1</id>
+			<name>Normal</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>Alta</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>3</id>
+			<name>Media</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>4</id>
+			<name>Baja</name>
+			<status>1</status>
+		</row>
+	</ismp_in8_prioridad>
+	
+	<hepe_tiposhe>
+		<row>
+			<id>1</id>
+			<name>INFORME RISOP</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>2</id>
+			<name>INFORME RISOP (GSSO)</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>3</id>
+			<name>INFORME RIS</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>4</id>
+			<name>INFORME LV</name>
+			<status>1</status>
+		</row>
+	</hepe_tiposhe>
+	
+	<sitios>
+		<row>
+			<id>monitoringrt</id>
+			<pk>1</pk>
+			<name>Monitoring RT</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>integralchuqui</id>
+			<pk>2</pk>
+			<name>Integral Chuquicamata</name>
+			<status>1</status>
+		</row>
+		<row>
+			<id>gestion</id>
+			<pk>3</pk>
+			<name>Gestion</name>
+			<status>1</status>
+		</row>	
+		<row>
+			<id>dmh</id>
+			<pk>4</pk>
+			<name>Division Ministro Hales</name>
+			<status>1</status>
+		</row>	
+		<row>
+			<id>nrt</id>
+			<pk>5</pk>
+			<name>Nuevo RT</name>
+			<status>1</status>
+		</row>	
+		<row>
+			<id>prevencion</id>
+			<pk>6</pk>
+			<name>Prevencion de Riesgos</name>
+			<status>1</status>
+		</row>	
+		<row>
+			<id>dgm</id>
+			<pk>7</pk>
+			<name>Division Gabriela Mistral</name>
+			<status>1</status>
+		</row>
+	</sitios>
+</rows>
