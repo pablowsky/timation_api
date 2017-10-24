@@ -104,8 +104,8 @@ class Controller extends Controllermass{
 				$_data['success'] = 0;
 				$v = array(
 					'device'	=>	$getVars['device'],
-					'start'		=>	'2017-10-09 15:21:00',//$getVars['start'],
-					'end'		=>	'2017-10-09 15:21:59'//$getVars['end']
+					'start'		=>	$getVars['start'],//'2017-10-09 15:21:00',//$getVars['start'],
+					'end'		=>	$getVars['end']//'2017-10-09 15:21:59'//$getVars['end']
 				);
 				$h = new Bind($v,'history');
 				if($h->BindIsOk()){
