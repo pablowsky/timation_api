@@ -19,7 +19,8 @@ class Model extends ABModel{
 		//return $this->rQuery('SELECT @TOKEN');
 	}
 	public function getTracert($bindvars){	
-		$sql = "SEL_TRACEROUTE(:DEVICE)";
+		//$sql = "SEL_TRACEROUTE(:DEVICE)";
+		$sql = "GET_TRACE(:DEVICE, :MINUTES)";
 		return $this->proc($sql,$bindvars);
 	}
 	public function getPosition($bindvars){	

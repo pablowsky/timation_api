@@ -118,7 +118,7 @@ class Controller extends Controllermass{
 				
 			case 'tracert':
 				$_data['success'] = 0;
-				$h = new Bind(array('device'	=>	$getVars['device']),'adddevice');
+				$h = new Bind(array('device'	=>	$getVars['device'], 'minutes'	=>	$getVars['minutes']),'tracert');
 				if($h->BindIsOk()){
 					$_pos 	= $Model->getTracert($h->vars());
 					$_data['success'] = 1;
@@ -136,6 +136,21 @@ class Controller extends Controllermass{
 				
 				break;
 				
+				
+			case 'lastposition':
+				//sleep(5);
+				$v = array(
+					'device'	=>	$getVars['device']
+				);
+				$_data['success'] = 0;
+				$h = new Bind(array('device' =>	$getVars['device']),'getvars');
+				if( $h->BindIsOk() ){
+					$_pos 	= $Model->getPosition($h->vars());
+					$_data['position']	= $_pos[0];
+					$_data['success'] 	= 1;
+				}
+				$Vista->setArray($_data)->printJSON();
+				exit;
 				
 			case 'adddevice':
 				$v = array(

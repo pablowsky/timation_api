@@ -34,6 +34,15 @@
 									'type'=>'data',
 									'if_null'=>'ERROR')),
 											
+		'tracert' =>array(
+				'DEVICE' =>array(	'size'=>11,
+									'type'=>'integer',
+									'if_null'=>'ERROR'),
+
+				'MINUTES' =>array(	'size'=>4,
+									'type'=>'integer',
+									'if_null'=>'ERROR')),
+											
 		'adddevice' =>array(
 				'DEVICE' =>array(	'size'=>11,
 									'type'=>'integer',
