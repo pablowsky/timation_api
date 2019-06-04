@@ -46,10 +46,10 @@
 												CONEXION ORACLE
 	*********************************************************************************************************/
 	if( APLICATION_MODE==1  || APLICATION_MODE==2 ){
-		define('MyUSUARIO', 'admin_timation');
-		define('MyCLAVE', 'T745g1s5f');
-		define('MyHOST', 'timation.cl');
-		define('MyBD', 'admin_timationtracker');
+		define('MyUSUARIO', '');
+		define('MyCLAVE', '');
+		define('MyHOST', '');
+		define('MyBD', '');
 		define("HASH_KEY", "4ffddf1d3cae5");
 	} elseif( APLICATION_MODE==0 ){		
 		define('MyUSUARIO', 'root');
